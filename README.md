@@ -52,5 +52,8 @@ cd Brute-Force-Detector-Python
 
 APP_EMAIL=your_email@gmail.com
 APP_PASS=your_app_password
-
-
+```
+### 2️⃣ Install Requirements
+```bash
+pip install requests
+```
