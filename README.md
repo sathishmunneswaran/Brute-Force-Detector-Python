@@ -55,5 +55,47 @@ APP_PASS=your_app_password
 ```
 ### 2️⃣ Install Requirements
 ```bash
-pip install requests
+export APP_EMAIL="your_email@gmail.com"
+export APP_PASS="your_gmail_app_password"
 ```
+### ▶️ Usage:
+### Run the script:
+```bash
+python3 brute_force_detector.py
+```
+### Real server monitoring:
+### Edit:
+```bash
+LOG_FILE = "/var/log/auth.log"
+```
+### Then:
+```bash
+sudo python3 brute_force_detector.py
+```
+### 📊 Sample Output
+```bash
+[LIVE] 185.244.25.42 -> 6 attempts -> MEDIUM - Possible Attack -> Russia (Moscow)
+[LIVE] 185.244.25.42 -> 11 attempts -> HIGH - Brute Force -> Russia (Moscow)
+📧 Email Alert Sent
+```
+### 🧱 Project Structure
+```bash
+Brute-Force-Detector-Python/
+│── brute_force_detector.py
+│── logs.txt
+│── README.md
+```
+### 🔥 Future Enhancements
+Dashboard with charts
+
+Store attack logs in SQLite
+
+Auto-block attacker IP with iptables
+
+Telegram/Slack alert integration
+
+Multithreading for faster GeoIP
+### 👨‍💻 Author
+Sathish Muneeswaran
+Cybersecurity Enthusiast | SOC Analyst (Learning)
+
