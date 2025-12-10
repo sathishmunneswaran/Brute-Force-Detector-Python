@@ -41,6 +41,16 @@ Automatically sends alert when attack becomes **HIGH severity**:
 
 ### 📧 SMTP (Gmail) Supported  
 Environment variables:
-APP_EMAIL=your_email@gmail.com
+---
 
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com//Brute-Force-Detector-Python.git
+cd Brute-Force-Detector-Python
+
+APP_EMAIL=your_email@gmail.com
 APP_PASS=your_app_password
+
+
