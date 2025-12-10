@@ -47,7 +47,7 @@ Environment variables:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com//Brute-Force-Detector-Python.git
+git clone https://github.com/sathishmunneswaran/Brute-Force-Detector-Python.git
 cd Brute-Force-Detector-Python
 
 APP_EMAIL=your_email@gmail.com
