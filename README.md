@@ -85,16 +85,14 @@ Brute-Force-Detector-Python/
 │── logs.txt
 │── README.md
 ```
-### 🔥 Future Enhancements
-Dashboard with charts
+## 🔥 Future Enhancements
 
-Store attack logs in SQLite
+- Dashboard with charts  
+- Store attack logs in SQLite  
+- Auto-block attacker IP using iptables  
+- Telegram/Slack alert integration  
+- Multithreading for faster GeoIP lookups
 
-Auto-block attacker IP with iptables
-
-Telegram/Slack alert integration
-
-Multithreading for faster GeoIP
 ### 👨‍💻 Author
 Sathish Muneeswaran
 Cybersecurity Enthusiast | SOC Analyst (Learning)
